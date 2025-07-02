@@ -1,3 +1,4 @@
+
 # 🚀 TextTransformer
 
 **TextTransformer** is your go-to Chrome extension for quickly converting text into various case styles — perfect for developers, writers, or anyone who deals with text formatting.
@@ -19,13 +20,13 @@
 
 🔄 Real-time conversion display  
 🧭 Tab-based navigation for each case style  
-👨‍💻 Simple, clean user interface
+👨‍💻 Simple, clean user interface  
 
 ---
 
 ## 📸 Screenshots
 
-<img width="297" alt="image" src="https://github.com/user-attachments/assets/41154efb-5fae-44d7-9f88-e26d86bcea12" />
+<img width="349" alt="image" src="https://github.com/user-attachments/assets/4fc5919a-3029-45e4-8c7c-549b86f4bab6" />
 
 ---
 
@@ -36,13 +37,13 @@ To install the **TextTransformer** Chrome extension manually:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/TextTransformer.git
+   git clone https://github.com/ArshdeepGrover/TextTransformer-Chrome.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd TextTransformer
+   cd TextTransformer-Chrome
    ```
 
 3. **Load into Chrome:**
@@ -67,7 +68,7 @@ To install the **TextTransformer** Chrome extension manually:
 
 Want to improve or extend the project? Contributions are welcome!
 
-1. **Fork** this repo
+1. **Fork** this repo  
 2. **Clone** your fork:
 
    ```bash
@@ -92,9 +93,20 @@ Want to improve or extend the project? Contributions are welcome!
 
 ---
 
-## 📬 Contact
+## ☕ Support & Connect
 
-Feel free to reach out or connect if you have questions or ideas!
+If you find this tool useful, consider supporting my work!
 
-- ✉️ Email: [arsh199820@gmail.com](mailto:arsh199820@gmail.com)
-- 🐙 GitHub: [@ArshdeepGrover](https://github.com/ArshdeepGrover)
+<p>
+  <a href="https://www.buymeacoffee.com/ArshdeepGrover" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" height="60" width="217" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+🔗 **Portfolio:** [arshdeepsingh.info](https://www.arshdeepsingh.info)  
+📬 **Email:** [arsh199820@gmail.com](mailto:arsh199820@gmail.com)  
+🐙 **GitHub:** [@ArshdeepGrover](https://github.com/ArshdeepGrover)
+
+---
+
+Thank you for checking out **TextTransformer**! 🚀
