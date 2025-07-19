@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "TextTransformer",
   "version": "1.0",
-  "description": "TextTransformer is the ultimate companion for developers and writers, offering instant conversion of text into a wide array of case styles including Pascal case, kebab case, camel case, snake case, title case, sentence case, uppercase, and lowercase. Streamline your workflow and ensure consistent formatting with this versatile tool.",
+  "description": "TextTransformer: Convert text to Pascal, kebab, camel, snake, title, sentence, upper, and lowercase cases.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -12,5 +12,5 @@
       "128": "text_transformer_icon_128x128.png"
     }
   },
-  "permissions": ["clipboardWrite", "activeTab", "scripting"]
+  "permissions": ["clipboardWrite"]
 }
