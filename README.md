@@ -5,22 +5,30 @@
 
 ---
 
+## Privacy Policy
+
+For detailed information on how this extension handles data, please refer to our [**Privacy Policy**](PRIVACY_POLICY.md).
+
+**Important Note:** As of now, this extension does not collect user data.
+
+---
+
 ## ✨ Features
 
 ✔️ Instantly convert text to:
 
-- 🟦 **UPPER CASE**  
-- 🟨 **lower case**  
-- 🟩 **Sentence case**  
-- 🟧 **camelCase**  
-- 🟥 **snake_case**  
-- 🟪 **kebab-case**  
-- 🟫 **PascalCase**  
+- 🟦 **UPPER CASE**
+- 🟨 **lower case**
+- 🟩 **Sentence case**
+- 🟧 **camelCase**
+- 🟥 **snake_case**
+- 🟪 **kebab-case**
+- 🟫 **PascalCase**
 - 🟨 **Title Case**
 
-🔄 Real-time conversion display  
-🧭 Tab-based navigation for each case style  
-👨‍💻 Simple, clean user interface  
+🔄 Real-time conversion display
+🧭 Tab-based navigation for each case style
+👨‍💻 Simple, clean user interface
 
 ---
 
