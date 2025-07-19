@@ -81,7 +81,7 @@ function toSentenceCase(text) {
   // Split by sentence terminators (., !, ?)
   return text
     .toLowerCase()
-    .replace(/(^\s*|\.\s+|\!\s+|\?\s+)([a-z])/g, function(match, p1, p2) {
+    .replace(/(^\s*|\.\s+|\!\s+|\?\s+)([a-z])/g, function (match, p1, p2) {
       return p1 + p2.toUpperCase();
     });
 }
@@ -91,7 +91,7 @@ function toCamelCase(text) {
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .toLowerCase()
     .split(/\s+|_+|-+/)
-    .filter(word => word.length > 0)
+    .filter((word) => word.length > 0)
     .map((word, index) =>
       index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1)
     )
@@ -103,7 +103,7 @@ function toSnakeCase(text) {
     .replace(/([a-z])([A-Z])/g, "$1_$2")
     .toLowerCase()
     .split(/\s+|_+|-+/)
-    .filter(word => word.length > 0)
+    .filter((word) => word.length > 0)
     .join("_");
 }
 
@@ -112,7 +112,7 @@ function toKebabCase(text) {
     .replace(/([a-z])([A-Z])/g, "$1-$2")
     .toLowerCase()
     .split(/\s+|_+|-+/)
-    .filter(word => word.length > 0)
+    .filter((word) => word.length > 0)
     .join("-");
 }
 
@@ -120,7 +120,7 @@ function toPascalCase(text) {
   return text
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .split(/\s+|_+|-+/)
-    .filter(word => word.length > 0)
+    .filter((word) => word.length > 0)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join("");
 }
@@ -129,19 +129,20 @@ function toTitleCase(text) {
   return text
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .split(/\s+|_+|-+/)
-    .filter(word => word.length > 0)
+    .filter((word) => word.length > 0)
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
 }
 
 function copy() {
   const copyText = document.getElementById("convertedText").innerText;
-  
+
   if (copyText.trim() === "") {
     return; // Don't copy if there's nothing to copy
   }
 
-  navigator.clipboard.writeText(copyText)
+  navigator.clipboard
+    .writeText(copyText)
     .then(() => {
       const button = document.getElementById("copy");
       button.innerText = "Copied!";
@@ -149,9 +150,9 @@ function copy() {
         button.innerText = "Copy";
       }, 2000);
     })
-    .catch(err => {
-      console.error('Failed to copy text: ', err);
-      alert('Failed to copy text. Please try again.');
+    .catch((err) => {
+      console.error("Failed to copy text: ", err);
+      alert("Failed to copy text. Please try again.");
     });
 }
 

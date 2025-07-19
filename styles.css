@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #f8f9fa;
@@ -14,7 +14,7 @@ body {
 .transformer-section {
   padding: 20px;
   background: linear-gradient(145deg, #f0f0f0, #ffffff);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 h1 {
@@ -23,6 +23,13 @@ h1 {
   margin: 0 0 20px 0;
   color: #5e72e4;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #5e72e4;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 label {
@@ -40,7 +47,7 @@ input {
   border-radius: 8px;
   font-size: 14px;
   transition: all 0.2s;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 input:focus {
@@ -91,7 +98,7 @@ input:focus {
   background-color: #ffffff;
   word-wrap: break-word;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
   font-size: 14px;
   line-height: 1.5;
 }
