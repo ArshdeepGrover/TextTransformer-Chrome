@@ -38,6 +38,12 @@ For detailed information on how this extension handles data, please refer to our
 
 ---
 
+## 📸 Public Link
+
+https://chromewebstore.google.com/detail/ajekflcjkiojnebaonccmaemifdndgdi?utm_source=item-share-cb
+
+---
+
 ## 🧩 Installation
 
 To install the **TextTransformer** Chrome extension manually:
